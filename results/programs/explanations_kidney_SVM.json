@@ -33,7 +33,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.9, 'sg': 1.025, 'hemo': 12.3, 'sod': '?', 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '3' which should not equal '0' does hold \\n\"]"
+        "explanation": "[\"{'sc': 0.9, 'sg': 1.025, 'hemo': 12.3, 'sod': '?', 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '3' which should not equal '0' does hold \\n\"]",
+        "ml_confidence": 0.9651385820012782
     },
     {
         "instance": {
@@ -69,7 +70,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 3.9, 'sg': 1.01, 'hemo': 13.8, 'sod': 135.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 3.9 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 3.9, 'sg': 1.01, 'hemo': 13.8, 'sod': 135.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 3.9 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9741989747836717
     },
     {
         "instance": {
@@ -105,7 +107,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 6.0, 'sg': 1.01, 'hemo': 9.1, 'sod': 134.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 6.0 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 6.0, 'sg': 1.01, 'hemo': 9.1, 'sod': 134.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 6.0 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999993316778742
     },
     {
         "instance": {
@@ -141,7 +144,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.4, 'sg': 1.02, 'hemo': 13.4, 'sod': 138.0, 'al': '2', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.4 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.4, 'sg': 1.02, 'hemo': 13.4, 'sod': 138.0, 'al': '2', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.4 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.730392014675704
     },
     {
         "instance": {
@@ -177,7 +181,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.6, 'sg': 1.02, 'hemo': 16.5, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.6 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.5 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.6, 'sg': 1.02, 'hemo': 16.5, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.6 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.5 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9568608902013088
     },
     {
         "instance": {
@@ -213,7 +218,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.9, 'sg': 1.01, 'hemo': 10.6, 'sod': 130.0, 'al': '1', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.9 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.9, 'sg': 1.01, 'hemo': 10.6, 'sod': 130.0, 'al': '1', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.9 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9956243056476631
     },
     {
         "instance": {
@@ -249,7 +255,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.6, 'sg': 1.01, 'hemo': 11.6, 'sod': 137.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.6 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.6, 'sg': 1.01, 'hemo': 11.6, 'sod': 137.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.6 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9515580720563018
     },
     {
         "instance": {
@@ -285,7 +292,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.9, 'sg': '?', 'hemo': 13.3, 'sod': 144.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is '?' which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.3 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 144.0 which should equal '?' does not hold and\\n\\tthe value of al is '?' which should not equal '0' does hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '?' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.9, 'sg': '?', 'hemo': 13.3, 'sod': 144.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is '?' which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.3 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 144.0 which should equal '?' does not hold and\\n\\tthe value of al is '?' which should not equal '0' does hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '?' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.7445936514186045
     },
     {
         "instance": {
@@ -321,7 +329,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.1, 'sg': 1.02, 'hemo': 15.0, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.0 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.1, 'sg': 1.02, 'hemo': 15.0, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.0 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9687221003358752
     },
     {
         "instance": {
@@ -357,7 +366,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 3.2, 'sg': 1.02, 'hemo': 11.2, 'sod': 137.0, 'al': '4', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 3.2 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 3.2, 'sg': 1.02, 'hemo': 11.2, 'sod': 137.0, 'al': '4', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 3.2 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999984374166547
     },
     {
         "instance": {
@@ -393,7 +403,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.8, 'sg': 1.02, 'hemo': 11.3, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of hemo is 11.3 which should be less equal to 12.0 does hold \\n\"]"
+        "explanation": "[\"{'sc': 0.8, 'sg': 1.02, 'hemo': 11.3, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of hemo is 11.3 which should be less equal to 12.0 does hold \\n\"]",
+        "ml_confidence": 0.7081712980325486
     },
     {
         "instance": {
@@ -429,7 +440,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.9, 'sg': 1.02, 'hemo': 17.3, 'sod': 142.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 17.3 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 142.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.9, 'sg': 1.02, 'hemo': 17.3, 'sod': 142.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 17.3 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 142.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9422230182362258
     },
     {
         "instance": {
@@ -465,7 +477,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.0, 'sg': 1.02, 'hemo': 14.1, 'sod': 147.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.0 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.1 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 147.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.0, 'sg': 1.02, 'hemo': 14.1, 'sod': 147.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.0 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.1 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 147.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9515162707221914
     },
     {
         "instance": {
@@ -501,7 +514,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.8, 'sg': 1.025, 'hemo': 16.2, 'sod': 135.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.8 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 135.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.8, 'sg': 1.025, 'hemo': 16.2, 'sod': 135.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.8 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 135.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.991122479042815
     },
     {
         "instance": {
@@ -537,7 +551,8 @@
         "hybrid_prediction": 1,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.1, 'sg': 1.02, 'hemo': '?', 'sod': 135.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 135.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.1, 'sg': 1.02, 'hemo': '?', 'sod': 135.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 135.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9000848456263801
     },
     {
         "instance": {
@@ -573,7 +588,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 32.0, 'sg': 1.01, 'hemo': '?', 'sod': 163.0, 'al': '1', 'su': '3'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 32.0 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 32.0, 'sg': 1.01, 'hemo': '?', 'sod': 163.0, 'al': '1', 'su': '3'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 32.0 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999959837531107
     },
     {
         "instance": {
@@ -609,7 +625,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': '?', 'sg': 1.015, 'hemo': '?', 'sod': '?', 'al': '0', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]"
+        "explanation": "[\"{'sc': '?', 'sg': 1.015, 'hemo': '?', 'sod': '?', 'al': '0', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]",
+        "ml_confidence": 0.9999857005808268
     },
     {
         "instance": {
@@ -645,7 +662,8 @@
         "hybrid_prediction": 1,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': '?', 'sg': 1.025, 'hemo': 14.0, 'sod': 137.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is '?' which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.0 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 137.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': '?', 'sg': 1.025, 'hemo': 14.0, 'sod': 137.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is '?' which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.0 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 137.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9789425293105524
     },
     {
         "instance": {
@@ -681,7 +699,8 @@
         "hybrid_prediction": 0,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.7, 'sg': 1.015, 'hemo': 16.1, 'sod': 136.0, 'al': '4', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.7, 'sg': 1.015, 'hemo': 16.1, 'sod': 136.0, 'al': '4', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9465633935846105
     },
     {
         "instance": {
@@ -717,7 +736,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.7, 'sg': 1.025, 'hemo': 13.9, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.7 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.7, 'sg': 1.025, 'hemo': 13.9, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.7 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.8968605715667185
     },
     {
         "instance": {
@@ -753,7 +773,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 5.2, 'sg': 1.01, 'hemo': '?', 'sod': '?', 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 5.2 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 5.2, 'sg': 1.01, 'hemo': '?', 'sod': '?', 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 5.2 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999999667074071
     },
     {
         "instance": {
@@ -789,7 +810,8 @@
         "hybrid_prediction": 1,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.7, 'sg': 1.02, 'hemo': '?', 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.7 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.7, 'sg': 1.02, 'hemo': '?', 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.7 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9175817965369717
     },
     {
         "instance": {
@@ -825,7 +847,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.7, 'sg': 1.01, 'hemo': '?', 'sod': 130.0, 'al': '2', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.7, 'sg': 1.01, 'hemo': '?', 'sod': 130.0, 'al': '2', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9881169082060633
     },
     {
         "instance": {
@@ -861,7 +884,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.6, 'sg': 1.01, 'hemo': 11.8, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.01 which should be less equal to 1.015 does hold \\n\"]"
+        "explanation": "[\"{'sc': 0.6, 'sg': 1.01, 'hemo': 11.8, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.01 which should be less equal to 1.015 does hold \\n\"]",
+        "ml_confidence": 0.9350522584354184
     },
     {
         "instance": {
@@ -897,7 +921,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 15.0, 'sg': 1.01, 'hemo': 7.1, 'sod': 135.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 15.0 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 15.0, 'sg': 1.01, 'hemo': 7.1, 'sod': 135.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 15.0 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9918628757700803
     },
     {
         "instance": {
@@ -933,7 +958,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 6.5, 'sg': '?', 'hemo': 6.2, 'sod': 135.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 6.5 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 6.5, 'sg': '?', 'hemo': 6.2, 'sod': 135.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 6.5 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999851294027315
     },
     {
         "instance": {
@@ -969,7 +995,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.8, 'sg': '?', 'hemo': '?', 'sod': '?', 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.8 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.8, 'sg': '?', 'hemo': '?', 'sod': '?', 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.8 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9819585540167863
     },
     {
         "instance": {
@@ -1005,7 +1032,8 @@
         "hybrid_prediction": 0,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.9, 'sg': 1.02, 'hemo': 12.7, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 12.7 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.9, 'sg': 1.02, 'hemo': 12.7, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 12.7 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.6724462928536928
     },
     {
         "instance": {
@@ -1041,7 +1069,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.5, 'sg': 1.015, 'hemo': 9.9, 'sod': '?', 'al': '2', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.5 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.5, 'sg': 1.015, 'hemo': 9.9, 'sod': '?', 'al': '2', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.5 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9745264872717505
     },
     {
         "instance": {
@@ -1077,7 +1106,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.5, 'sg': 1.015, 'hemo': 8.8, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.5 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.5, 'sg': 1.015, 'hemo': 8.8, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.5 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.8170950529619846
     },
     {
         "instance": {
@@ -1113,7 +1143,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.4, 'sg': '?', 'hemo': 8.3, 'sod': 128.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.4 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.4, 'sg': '?', 'hemo': 8.3, 'sod': 128.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.4 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9745355866254405
     },
     {
         "instance": {
@@ -1149,7 +1180,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.7, 'sg': 1.025, 'hemo': 14.9, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.7 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.7, 'sg': 1.025, 'hemo': 14.9, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.7 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.8316079396447172
     },
     {
         "instance": {
@@ -1185,7 +1217,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.9, 'sg': '?', 'hemo': '?', 'sod': 140.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.9 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.9, 'sg': '?', 'hemo': '?', 'sod': 140.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.9 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.8908628227535195
     },
     {
         "instance": {
@@ -1221,7 +1254,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.1, 'sg': 1.02, 'hemo': 15.8, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.8 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.1, 'sg': 1.02, 'hemo': 15.8, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.8 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9338872449788465
     },
     {
         "instance": {
@@ -1257,7 +1291,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.7, 'sg': '?', 'hemo': 9.6, 'sod': 141.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.7, 'sg': '?', 'hemo': 9.6, 'sod': 141.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9961987596355869
     },
     {
         "instance": {
@@ -1293,7 +1328,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.1, 'sg': 1.015, 'hemo': '?', 'sod': 131.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.1, 'sg': 1.015, 'hemo': '?', 'sod': 131.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]",
+        "ml_confidence": 0.8949334905360118
     },
     {
         "instance": {
@@ -1329,7 +1365,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.025, 'hemo': '?', 'sod': 140.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 140.0 which should equal '?' does not hold and\\n\\tthe value of al is '1' which should not equal '0' does hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.025, 'hemo': '?', 'sod': 140.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 140.0 which should equal '?' does not hold and\\n\\tthe value of al is '1' which should not equal '0' does hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9596399175327008
     },
     {
         "instance": {
@@ -1365,7 +1402,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 16.2, 'sod': 137.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 137.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 16.2, 'sod': 137.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 137.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.895956711261527
     },
     {
         "instance": {
@@ -1401,7 +1439,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.9, 'sg': 1.025, 'hemo': 16.9, 'sod': 147.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 147.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.9, 'sg': 1.025, 'hemo': 16.9, 'sod': 147.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 147.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9184912191699331
     },
     {
         "instance": {
@@ -1437,7 +1476,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 7.3, 'sg': '?', 'hemo': 7.9, 'sod': 137.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 7.3 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 7.3, 'sg': '?', 'hemo': 7.9, 'sod': 137.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 7.3 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999983197567226
     },
     {
         "instance": {
@@ -1473,7 +1513,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.9, 'sg': 1.025, 'hemo': 13.9, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.9, 'sg': 1.025, 'hemo': 13.9, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.9 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.9 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9434315794853111
     },
     {
         "instance": {
@@ -1509,7 +1550,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.4, 'sg': 1.025, 'hemo': 14.6, 'sod': 147.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.4 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 147.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.4, 'sg': 1.025, 'hemo': 14.6, 'sod': 147.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.4 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 147.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9756672497423282
     },
     {
         "instance": {
@@ -1545,7 +1587,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.5, 'sg': 1.02, 'hemo': 15.7, 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.7 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.5, 'sg': 1.02, 'hemo': 15.7, 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.7 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9600698952544956
     },
     {
         "instance": {
@@ -1581,7 +1624,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.015, 'hemo': '?', 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.015, 'hemo': '?', 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]",
+        "ml_confidence": 0.9605526707052493
     },
     {
         "instance": {
@@ -1617,7 +1661,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 15.2, 'sg': 1.015, 'hemo': 8.6, 'sod': 120.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 15.2 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 15.2, 'sg': 1.015, 'hemo': 8.6, 'sod': 120.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 15.2 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9831830166566677
     },
     {
         "instance": {
@@ -1653,7 +1698,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.0, 'sg': 1.02, 'hemo': '?', 'sod': 135.0, 'al': '4', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.0 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 135.0 which should equal '?' does not hold and\\n\\tthe value of al is '4' which should not equal '0' does hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.0, 'sg': 1.02, 'hemo': '?', 'sod': 135.0, 'al': '4', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.0 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is '?' which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 135.0 which should equal '?' does not hold and\\n\\tthe value of al is '4' which should not equal '0' does hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.891294624008536
     },
     {
         "instance": {
@@ -1689,7 +1735,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.015, 'hemo': 10.8, 'sod': '?', 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.015, 'hemo': 10.8, 'sod': '?', 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.015 which should be less equal to 1.015 does hold \\n\"]",
+        "ml_confidence": 0.9973159815364342
     },
     {
         "instance": {
@@ -1725,7 +1772,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.5, 'sg': 1.02, 'hemo': 15.1, 'sod': 143.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.1 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 143.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.5, 'sg': 1.02, 'hemo': 15.1, 'sod': 143.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.1 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 143.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.6999334207683786
     },
     {
         "instance": {
@@ -1761,7 +1809,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.5, 'sg': 1.02, 'hemo': 15.2, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.5, 'sg': 1.02, 'hemo': 15.2, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.8366206382843454
     },
     {
         "instance": {
@@ -1797,7 +1846,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 12.8, 'sg': 1.015, 'hemo': 7.3, 'sod': 135.0, 'al': '4', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 12.8 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 12.8, 'sg': 1.015, 'hemo': 7.3, 'sod': 135.0, 'al': '4', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 12.8 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999932919983714
     },
     {
         "instance": {
@@ -1833,7 +1883,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.6, 'sg': 1.02, 'hemo': 8.7, 'sod': 115.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.6 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.6, 'sg': 1.02, 'hemo': 8.7, 'sod': 115.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.6 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.993368407898376
     },
     {
         "instance": {
@@ -1869,7 +1920,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.1, 'sg': 1.01, 'hemo': 11.1, 'sod': '?', 'al': '2', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.1 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.1, 'sg': 1.01, 'hemo': 11.1, 'sod': '?', 'al': '2', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.1 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9973980593820159
     },
     {
         "instance": {
@@ -1905,7 +1957,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.2, 'sg': 1.01, 'hemo': '?', 'sod': 113.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.2 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.2, 'sg': 1.01, 'hemo': '?', 'sod': 113.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.2 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9631630774107852
     },
     {
         "instance": {
@@ -1941,7 +1994,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.6, 'sg': 1.02, 'hemo': 13.6, 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.6 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.6, 'sg': 1.02, 'hemo': 13.6, 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.6 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.8615325033990422
     },
     {
         "instance": {
@@ -1977,7 +2031,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 14.2, 'sg': 1.01, 'hemo': 8.3, 'sod': 132.0, 'al': '2', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 14.2 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 14.2, 'sg': 1.01, 'hemo': 8.3, 'sod': 132.0, 'al': '2', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 14.2 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.952533791068175
     },
     {
         "instance": {
@@ -2013,7 +2068,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 5.3, 'sg': 1.015, 'hemo': 12.0, 'sod': 136.0, 'al': '4', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 5.3 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 5.3, 'sg': 1.015, 'hemo': 12.0, 'sod': 136.0, 'al': '4', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 5.3 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9969922649327165
     },
     {
         "instance": {
@@ -2049,7 +2105,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.4, 'sg': 1.025, 'hemo': 11.1, 'sod': 135.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.4 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.4, 'sg': 1.025, 'hemo': 11.1, 'sod': 135.0, 'al': '1', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.4 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.885078329565004
     },
     {
         "instance": {
@@ -2085,7 +2142,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 17.2, 'sod': 139.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 17.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 139.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 17.2, 'sod': 139.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 17.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 139.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.7927440006546453
     },
     {
         "instance": {
@@ -2121,7 +2179,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 15.2, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 140.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 15.2, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.2 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 140.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9811275129639836
     },
     {
         "instance": {
@@ -2157,7 +2216,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.5, 'sg': 1.025, 'hemo': 14.5, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.5 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 0.5, 'sg': 1.025, 'hemo': 14.5, 'sod': 146.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 0.5 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 14.5 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 146.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.8614110845395072
     },
     {
         "instance": {
@@ -2193,7 +2253,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.1, 'sg': 1.025, 'hemo': 15.6, 'sod': 142.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 142.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.1, 'sg': 1.025, 'hemo': 15.6, 'sod': 142.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.1 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 142.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.8982147848501182
     },
     {
         "instance": {
@@ -2229,7 +2290,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.0, 'sg': 1.025, 'hemo': 15.3, 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.0 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.3 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.0, 'sg': 1.025, 'hemo': 15.3, 'sod': 150.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.0 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 15.3 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 150.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.8739523622118721
     },
     {
         "instance": {
@@ -2265,7 +2327,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 0.6, 'sg': 1.02, 'hemo': 11.0, 'sod': 138.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of hemo is 11.0 which should be less equal to 12.0 does hold \\n\"]"
+        "explanation": "[\"{'sc': 0.6, 'sg': 1.02, 'hemo': 11.0, 'sod': 138.0, 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of hemo is 11.0 which should be less equal to 12.0 does hold \\n\"]",
+        "ml_confidence": 0.8732423575893987
     },
     {
         "instance": {
@@ -2301,7 +2364,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.025, 'hemo': 13.6, 'sod': 144.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 144.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.025, 'hemo': 13.6, 'sod': 144.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.6 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 144.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9612266885965659
     },
     {
         "instance": {
@@ -2337,7 +2401,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.9, 'sg': 1.015, 'hemo': 10.8, 'sod': '?', 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.9 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.9, 'sg': 1.015, 'hemo': 10.8, 'sod': '?', 'al': '3', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.9 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9909472123246188
     },
     {
         "instance": {
@@ -2373,7 +2438,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': '?', 'sg': 1.02, 'hemo': 11.5, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of hemo is 11.5 which should be less equal to 12.0 does hold \\n\"]"
+        "explanation": "[\"{'sc': '?', 'sg': 1.02, 'hemo': 11.5, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of hemo is 11.5 which should be less equal to 12.0 does hold \\n\"]",
+        "ml_confidence": 0.9973955185122189
     },
     {
         "instance": {
@@ -2409,7 +2475,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.01, 'hemo': '?', 'sod': 142.0, 'al': '0', 'su': '4'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.01 which should be less equal to 1.015 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.01, 'hemo': '?', 'sod': 142.0, 'al': '0', 'su': '4'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sg is 1.01 which should be less equal to 1.015 does hold \\n\"]",
+        "ml_confidence": 0.9853149350020534
     },
     {
         "instance": {
@@ -2445,7 +2512,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.4, 'sg': 1.015, 'hemo': 11.6, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.4 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.4, 'sg': 1.015, 'hemo': 11.6, 'sod': 140.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.4 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9876763951021782
     },
     {
         "instance": {
@@ -2481,7 +2549,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.5, 'sg': '?', 'hemo': '?', 'sod': '?', 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.5 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.5, 'sg': '?', 'hemo': '?', 'sod': '?', 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.5 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999842033837376
     },
     {
         "instance": {
@@ -2517,7 +2586,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.025, 'hemo': 16.5, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.5 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.025, 'hemo': 16.5, 'sod': 141.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 16.5 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 141.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9702942317658916
     },
     {
         "instance": {
@@ -2553,7 +2623,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "improvement",
-        "explanation": "[\"{'sc': 1.3, 'sg': 1.015, 'hemo': 13.2, 'sod': 140.0, 'al': '0', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.3 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.3, 'sg': 1.015, 'hemo': 13.2, 'sod': 140.0, 'al': '0', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.3 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.45874738173191704
     },
     {
         "instance": {
@@ -2589,7 +2660,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.7, 'sg': 1.01, 'hemo': 12.5, 'sod': 130.0, 'al': '3', 'su': '4'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.7 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.7, 'sg': 1.01, 'hemo': 12.5, 'sod': 130.0, 'al': '3', 'su': '4'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.7 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9955831511633049
     },
     {
         "instance": {
@@ -2625,7 +2697,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 4.0, 'sg': 1.015, 'hemo': 12.0, 'sod': 136.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 4.0 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 4.0, 'sg': 1.015, 'hemo': 12.0, 'sod': 136.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 4.0 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999888138708098
     },
     {
         "instance": {
@@ -2661,7 +2734,8 @@
         "hybrid_prediction": 0,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 13.0, 'sod': 138.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.0 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 138.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': 1.2, 'sg': 1.02, 'hemo': 13.0, 'sod': 138.0, 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is 1.2 which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.02 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.0 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is 138.0 which should equal '?' does not hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9624921526966281
     },
     {
         "instance": {
@@ -2697,7 +2771,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 4.6, 'sg': '?', 'hemo': 9.8, 'sod': 135.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 4.6 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 4.6, 'sg': '?', 'hemo': 9.8, 'sod': 135.0, 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 4.6 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9874707772341819
     },
     {
         "instance": {
@@ -2733,7 +2808,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.1, 'sg': '?', 'hemo': 12.6, 'sod': '?', 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.1 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.1, 'sg': '?', 'hemo': 12.6, 'sod': '?', 'al': '?', 'su': '?'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.1 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9503645223014516
     },
     {
         "instance": {
@@ -2769,7 +2845,8 @@
         "hybrid_prediction": 1,
         "true_label": 0,
         "status": "no_change",
-        "explanation": "[\"{'sc': '?', 'sg': 1.025, 'hemo': 13.8, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is '?' which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.8 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]"
+        "explanation": "[\"{'sc': '?', 'sg': 1.025, 'hemo': 13.8, 'sod': '?', 'al': '0', 'su': '0'}\", \"label(X,'ckd') does not hold because\\n\\tthe value of sc is '?' which should be greater than 1.2 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sg is 1.025 which should be less equal to 1.015 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of hemo is 13.8 which should be less equal to 12.0 does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of sod is '?' which should equal '?' does hold and\\n\\tthe value of al is '0' which should not equal '0' does not hold \\n\", \"label(X,'ckd') does not hold because\\n\\tthe value of su is '0' which should equal '2' does not hold \\n\"]",
+        "ml_confidence": 0.9949750285859603
     },
     {
         "instance": {
@@ -2805,7 +2882,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 2.8, 'sg': 1.015, 'hemo': 12.2, 'sod': 135.0, 'al': '3', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.8 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 2.8, 'sg': 1.015, 'hemo': 12.2, 'sod': 135.0, 'al': '3', 'su': '2'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 2.8 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9929047330141946
     },
     {
         "instance": {
@@ -2841,7 +2919,8 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 1.7, 'sg': 1.01, 'hemo': 7.9, 'sod': 130.0, 'al': '3', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 1.7, 'sg': 1.01, 'hemo': 7.9, 'sod': 130.0, 'al': '3', 'su': '1'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 1.7 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.7341393901004811
     },
     {
         "instance": {
@@ -2877,6 +2956,7 @@
         "hybrid_prediction": 1,
         "true_label": 1,
         "status": "no_change",
-        "explanation": "[\"{'sc': 4.6, 'sg': 1.02, 'hemo': 10.5, 'sod': 138.0, 'al': '2', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 4.6 which should be greater than 1.2 does hold \\n\"]"
+        "explanation": "[\"{'sc': 4.6, 'sg': 1.02, 'hemo': 10.5, 'sod': 138.0, 'al': '2', 'su': '0'}\", \"label(X,'ckd') does hold because\\n\\tthe value of sc is 4.6 which should be greater than 1.2 does hold \\n\"]",
+        "ml_confidence": 0.9999999878220234
     }
 ]

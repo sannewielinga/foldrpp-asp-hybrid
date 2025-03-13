@@ -164,6 +164,22 @@ def main():
                 explanations = get_explanations(
                     model_foldrpp, data_test, y_pred_ml, y_pred_hybrid, y_true
                 )
+
+                if hasattr(ml_model, "classes_"):
+                    class_list = list(ml_model.classes_)
+                    for i, ex in enumerate(explanations):
+                        ml_pred = ex.get("ml_prediction")
+                        try:
+                            label_index = class_list.index(ml_pred)
+                            ex["ml_confidence"] = float(ml_confidences[i][label_index])
+                        except ValueError:
+                            ex["ml_confidence"] = None
+                else:
+                    for ex in explanations:
+                        ex["ml_confidence"] = None
+
+                # save_explanations(explanations, dataset_name, model_name)
+
                 ranked_rules = rank_rules_by_contribution(
                     model_foldrpp, data_test, y_pred_ml, y_pred_hybrid
                 )
